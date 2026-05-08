@@ -1,2 +1,5 @@
 .env
 reference-info
+node_modules
+generated
+.auth

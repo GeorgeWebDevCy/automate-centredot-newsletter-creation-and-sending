@@ -1,0 +1,28 @@
+{
+  "name": "automate-centredot-newsletter-creation-and-sending",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "render:pdfs": "node scripts/render-pdfs.mjs",
+    "inspect:mailmint": "node scripts/inspect-mailmint.mjs",
+    "automate": "node scripts/automate-newsletter.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeWebDevCy/automate-centredot-newsletter-creation-and-sending.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeWebDevCy/automate-centredot-newsletter-creation-and-sending/issues"
+  },
+  "homepage": "https://github.com/GeorgeWebDevCy/automate-centredot-newsletter-creation-and-sending#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "pdf-to-img": "^6.0.0",
+    "playwright": "^1.59.1"
+  }
+}
